@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 14px;
+}
+
+.profile-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 15px;
+  margin-left: 14px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-input {
+  position: relative;
+  padding-left: 33px !important;
+  background-color: rgb(244, 244, 244) !important;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.left-panel {
+  box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tabs-icon {
+  font-size: 30px;
+}
+
+.tabs .icon.active {
+  background-color: #f64255;
+  padding: 14px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.left-side-profile-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.left-site-userName {
+  color: #656566;
+  margin-bottom: 0;
+}
+
+.left-side-msg {
+  color: #b2b4b6;
+}
+
+.right-panel {
+  box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1);
+}
+
+.headers-info {
+  text-align: center;
+}
+
+.right-profile-details h6 {
+  margin-top: 10px;
+}
+
+.right-profile-details p {
+  margin: 0;
+}
+
+.right-profile-details p:last-child {
+  color: #b2b4b6;
+}
+
+.moreInfo-btn {
+  background-color: #f1f3f5;
+  color: #585959;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin: 18px 0;
+}
+
+.contact-info span {
+  background-color: #f1f3f5;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+
+.eamil a,
+.phone a,
+.userName a {
+  color: #555555;
+  font-size: 18px;
+}
+
+.chat-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.chat-headers {
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chat-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-body {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.incoming-msg {
+  display: flex;
+  align-items: baseline;
+  max-width: 80%;
+  margin-right: auto;
+}
+
+.incoming-text {
+  background-color: #f1f3f5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.outGoing-msg {
+  color: #ffffff;
+  margin: 13px 0;
+  max-width: 80%;
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+}
+
+.outGoing-text {
+  background-color: #f64255;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.msg-input {
+  resize: none;
+}
+
+.message-sendBtn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f64255;
+  border: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.submitbtn {
+  text-align: right;
+}
+
+.attch {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  margin-right: 10px;
+}
+
+.send-box {
+  display: flex;
+}
+
+.emtyChat {
+  text-align: center;
+  font-size: 28px;
+  color: gray;
+  margin-top: 150px;
+}
+
+/* ================================Register Page ============================== */
+
+.register-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1);
+}
+
+.register-form input {
+  margin: 10px 0;
+  width: 350px;
+}
+
+.signIntogglerBtn {
+  border: none;
+  background-color: transparent;
+  color: blue;
+}
+
+.registerBtn {
+  border: none;
+  width: 100%;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background-color: #f64255;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.register-text {
+  margin-bottom: 22px;
+  font-weight: bold;
+}
+
+.logo {
+  margin: 25px 0;
+  background-color: red;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.logOutBtn {
+  border: none;
+  background-color: #f64255;
+  padding: 8px 15px;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.ConverSations {
+  cursor: pointer;
+}
+
+/* ===================================================================================================
+                                    ~~ Messages ~~
+======================================================================================================*/
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.messageTop {
+  display: flex;
+}
+
+.messageImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.messageText {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f1f3f5;
+  max-width: 300px;
+}
+
+.messageBottom {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.message.own {
+  align-items: flex-end;
+}
+
+.message.own img {
+  display: none;
+}
+
+.message.own .messageText {
+  background-color: #f64255;
+  color: #ffffff;
+}
